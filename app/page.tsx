@@ -21,13 +21,13 @@ export default function Home() {
           <div className='text-5xl md:text-6xl'>JIDEONWO FELIX</div>
           <div className='text-sm md:text-2xl text-[#c1c1c1]'>Web Developer, Computer Hardware Technician, Educator</div>
           <div className='flex gap-2 mt-3 justify-center md:justify-start '>
-            <Link href={'https://github.com/JideonwoFelix'} target='_blank' className="w-10">
+            <Link href={'https://github.com/JideonwoFelix'} target='_blank' className="w-10 text-4xl">
               <FontAwesomeIcon icon={faGithub}/>
             </Link>
-            <Link href={'https://www.linkedin.com/in/felix-jideonwo-00bb5a189/'} target='_blank' className="w-10">
+            <Link href={'https://www.linkedin.com/in/felix-jideonwo-00bb5a189/'} target='_blank' className="w-10 text-4xl">
               <FontAwesomeIcon icon={faLinkedin}/>
             </Link>
-            <Link href={'https://www.facebook.com/jideonwo.felix?mibextid=ZbWKwL'} target='_blank' className="w-10">
+            <Link href={'https://www.facebook.com/jideonwo.felix?mibextid=ZbWKwL'} target='_blank' className="w-10 text-4xl">
               <FontAwesomeIcon icon={faFacebook}/>
             </Link>
             
