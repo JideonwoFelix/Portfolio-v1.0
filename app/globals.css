@@ -15,8 +15,12 @@
 }
 
 @font-face {
+  font-family:'Montserrat-bold';
+  src: url('/fonts/Montserrat-black.ttf');
+}
+@font-face {
   font-family: Montserrat;
-  src: url('/fonts/Montserrat-Regular.ttf');
+  src: url('/fonts/Montserrat-medium.ttf');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,5 +44,9 @@ body {
 
 .monserrat{
   font-family: 'Montserrat', xsans-serif;
+  /* font-family: 'Josefin Sans', xcursive; */
+}
+.monserrat-bold{
+  font-family: 'Montserrat-bold', xsans-serif;
   /* font-family: 'Josefin Sans', xcursive; */
 }

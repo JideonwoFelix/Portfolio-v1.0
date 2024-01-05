@@ -15,10 +15,11 @@ import 'swiper/css/bundle';
 export default function Home() {
 
   return (
+  <>
     <main className="min-h-screen p-10 md:p-24 monserrat">
       <section className="flex flex-col-reverse md:flex-row justify-between items-center">
         <div className='text-center md:text-left'>
-          <div className='text-5xl md:text-6xl'>JIDEONWO FELIX</div>
+          <div className='text-5xl md:text-6xl monserrat-bold'>JIDEONWO FELIX</div>
           <div className='text-sm md:text-2xl text-[#c1c1c1]'>Web Developer, Computer Hardware Technician, Educator</div>
           <div className='flex gap-2 mt-3 justify-center md:justify-start '>
             <Link href={'https://github.com/JideonwoFelix'} target='_blank' className="w-10 text-4xl">
@@ -77,5 +78,6 @@ export default function Home() {
         </Swiper>
       </section>
     </main>
+  </>
   )
 }
