@@ -15,7 +15,7 @@ import 'swiper/css/bundle';
 export default function Home() {
 
   return (
-    <main className="min-h-screen p-10 md:p-24 monserrat b-black">
+    <main className="min-h-screen p-10 md:p-24 monserrat">
       <section className="flex flex-col-reverse md:flex-row justify-between items-center">
         <div className='text-center md:text-left'>
           <div className='text-5xl md:text-6xl'>JIDEONWO FELIX</div>
