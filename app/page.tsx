@@ -15,19 +15,19 @@ import 'swiper/css/bundle';
 export default function Home() {
 
   return (
-    <main className="min-h-screen p-24">
+    <main className="min-h-screen p-10 md:p-24 monserrat b-black">
       <section className="flex flex-col-reverse md:flex-row justify-between items-center">
-        <div className='text-left'>
-          <div className='text-5xl md:text-6xl'>Jideonwo Felix</div>
+        <div className='text-center md:text-left'>
+          <div className='text-5xl md:text-6xl'>JIDEONWO FELIX</div>
           <div className='text-sm md:text-2xl text-[#c1c1c1]'>Web Developer, Computer Hardware Technician, Educator</div>
-          <div className='flex gap-2 mt-3'>
-            <Link href={'#'} className="w-10">
+          <div className='flex gap-2 mt-3 justify-center md:justify-start '>
+            <Link href={'https://github.com/JideonwoFelix'} target='_blank' className="w-10">
               <FontAwesomeIcon icon={faGithub}/>
             </Link>
-            <Link href={'#'}  className="w-10">
+            <Link href={'https://www.linkedin.com/in/felix-jideonwo-00bb5a189/'} target='_blank' className="w-10">
               <FontAwesomeIcon icon={faLinkedin}/>
             </Link>
-            <Link href={'#'}  className="w-10">
+            <Link href={'https://www.facebook.com/jideonwo.felix?mibextid=ZbWKwL'} target='_blank' className="w-10">
               <FontAwesomeIcon icon={faFacebook}/>
             </Link>
             
@@ -38,10 +38,10 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <h2 className='mb-10'>My Stack</h2>
+        <h2 className='mb-10 text-center md:text-left mt-10'>My Stack</h2>
         <Swiper
           spaceBetween={50}
-          slidesPerView={5}
+          // slidesPerView={5}
           loop={true}
           autoplay={{
             delay: 3000,
@@ -49,8 +49,8 @@ export default function Home() {
           }}
           breakpoints={{
             640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
+              slidesPerView: 3,
+              spaceBetween: 2,
             },
             768: {
               slidesPerView: 4,
@@ -63,17 +63,17 @@ export default function Home() {
           }}
           modules={[Autoplay, Pagination, Navigation]}
         >
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faHtml5}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faCss3}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faJs}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faWordpress}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faReact}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faLaravel}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faPhp}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faPython}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faBootstrap}/></div></SwiperSlide>
-          <SwiperSlide className='w-20'><div className="text-6xl"><FontAwesomeIcon icon={faGitAlt}/></div></SwiperSlide>
-          {/* illustrator corel django mysql */}
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faHtml5}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faCss3}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faJs}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faWordpress}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faReact}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faLaravel}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faPhp}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faPython}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faBootstrap}/></div></SwiperSlide>
+          <SwiperSlide className='xw-20 text-center'><div className="text-6xl"><FontAwesomeIcon icon={faGitAlt}/></div></SwiperSlide>
+          {/* tailwindcss illustrator corel django mysql */}
         </Swiper>
       </section>
     </main>
