@@ -19,7 +19,7 @@
   src: url('/fonts/Montserrat-black.ttf');
 }
 @font-face {
-  font-family: Montserrat;
+  font-family: MontserratLocal;
   src: url('/fonts/Montserrat-medium.ttf');
 }
 
@@ -43,10 +43,11 @@ body {
 
 
 .monserrat{
-  font-family: 'Montserrat', xsans-serif;
+  font-family: xMontserratLocal, 'Montserrat', xsans-serif;
   /* font-family: 'Josefin Sans', xcursive; */
 }
 .monserrat-bold{
-  font-family: 'Montserrat-bold', xsans-serif;
+  font-family: 'xMontserrat-bold', Montserrat;
   /* font-family: 'Josefin Sans', xcursive; */
+  font-weight: 700;
 }
